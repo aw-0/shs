@@ -16,6 +16,7 @@ const Code:RouteComponent = () => import('@/views/Code/Code.vue');
 const QRCode:RouteComponent = () => import('@/views/QRCodes/QRCodes.vue');
 const GetHelp:RouteComponent = () => import('@/views/GetHelp/GetHelp.vue');
 const Jukebox:RouteComponent = () => import('@/views/Jukebox/Jukebox.vue');
+const AskAdlai:RouteComponent = () => import('@/views/AskAdlai/AskAdlai.vue')
 
 type EditScheduleProps = {
   scheduleToEdit: string;
@@ -102,6 +103,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/jukebox',
     component: Jukebox,
   },
+  {
+    name: 'AskAdlai',
+    path: '/askadlai',
+    component: AskAdlai
+  }
 ];
 
 const router = createRouter({

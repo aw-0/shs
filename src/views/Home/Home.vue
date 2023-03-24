@@ -18,6 +18,8 @@
 
       <icon-text-card :icon="icons.faBell" text="Bell Schedules" link="bellschedules" :invert="false" />
 
+      <icon-text-card :icon="icons.faBrain" text="AskAdlai" link="askadlai" :invert="false" />
+
       <icon-text-card :icon="icons.faLink" text="Links" link="links" :invert="true"  />
 
       <icon-text-card :icon="icons.faCalendarDays" text="Calendar" link="calendar" :invert="true" />
@@ -52,6 +54,7 @@
 <script>
 import {
   faBell,
+  faBrain,
   faLink,
   faFileLines,
   faCalendarDays,
@@ -109,6 +112,7 @@ export default {
         faHourglass,
         faQrcode,
         faRadio,
+        faBrain,
       },
       fullScreenMode: false,
     };
